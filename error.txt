@@ -1,0 +1,801 @@
+The filename, directory name, or volume label syntax is incorrect.
+info Launching emulator...
+error Failed to launch emulator. Reason: No emulators found as an output of `emulator -list-avds`.
+warn Please launch an emulator manually or connect a device. Otherwise app may fail to launch.
+info Installing the app...
+Configuration on demand is an incubating feature.
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :app
+WARNING: The option setting 'android.defaults.buildfeatures.buildconfig=true' is deprecated.
+The current default is 'false'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+To keep using this feature, add the following to your module-level build.gradle files:
+    android.buildFeatures.buildConfig = true
+or from Android Studio, click: `Refactor` > `Migrate BuildConfig to Gradle Build Files`.
+
+> Configure project :react-native-firebase_app
+:react-native-firebase_app package.json found at C:\moodapp\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:firebase.bom using default value: 33.11.0
+:react-native-firebase_app:play.play-services-auth using default value: 21.3.0
+:react-native-firebase_app package.json found at C:\moodapp\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_app:version set from package.json: 21.13.0 (21,13,0 - 21013000)
+:react-native-firebase_app:android.compileSdk using custom value: 34
+:react-native-firebase_app:android.targetSdk using custom value: 34
+:react-native-firebase_app:android.minSdk using custom value: 24
+:react-native-firebase_app:reactNativeAndroidDir C:\moodapp\node_modules\react-native\android
+
+> Configure project :react-native-firebase_auth
+:react-native-firebase_auth package.json found at C:\moodapp\node_modules\@react-native-firebase\auth\package.json
+:react-native-firebase_app package.json found at C:\moodapp\node_modules\@react-native-firebase\app\package.json
+:react-native-firebase_auth:firebase.bom using default value: 33.11.0
+:react-native-firebase_auth package.json found at C:\moodapp\node_modules\@react-native-firebase\auth\package.json
+:react-native-firebase_auth:version set from package.json: 21.13.0 (21,13,0 - 21013000)
+:react-native-firebase_auth:android.compileSdk using custom value: 34
+:react-native-firebase_auth:android.targetSdk using custom value: 34
+:react-native-firebase_auth:android.minSdk using custom value: 24
+:react-native-firebase_auth:reactNativeAndroidDir C:\moodapp\node_modules\react-native\android
+
+> Configure project :react-native-reanimated
+Android gradle plugin: 8.8.0
+Gradle: 8.12
+WARNING: The specified Android SDK Build Tools version (34.0.0) is ignored, as it is below the minimum supported version (35.0.0) for Android Gradle Plugin 8.8.0.
+Android SDK Build Tools 35.0.0 will be used.
+To suppress this warning, remove "buildToolsVersion '34.0.0'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-vector-icons:preBuild UP-TO-DATE
+> Task :react-native-google-signin_google-signin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-vector-icons:preDebugBuild UP-TO-DATE
+> Task :react-native-google-signin_google-signin:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:preBuild UP-TO-DATE
+> Task :react-native-splash-screen:preBuild UP-TO-DATE
+> Task :react-native-google-signin_google-signin:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-firebase_auth:preBuild UP-TO-DATE
+> Task :react-native-firebase_app:preBuild UP-TO-DATE
+> Task :react-native-view-shot:preBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preBuild UP-TO-DATE
+> Task :react-native-screens:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preBuild UP-TO-DATE
+> Task :react-native-track-player:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-splash-screen:preDebugBuild UP-TO-DATE
+> Task :react-native-track-player:preBuild UP-TO-DATE
+> Task :react-native-firebase_app:preDebugBuild UP-TO-DATE
+> Task :react-native-view-shot:preDebugBuild UP-TO-DATE
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask SKIPPED
+> Task :react-native-firebase_auth:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:preDebugBuild UP-TO-DATE
+> Task :react-native-track-player:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:preDebugBuild UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResValues UP-TO-DATE
+> Task :react-native-firebase_auth:generateDebugResValues UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugResources UP-TO-DATE
+> Task :app:generateAutolinkingPackageList UP-TO-DATE
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :react-native-firebase_auth:generateDebugResources UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugResources UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:parseDebugLocalResources UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :react-native-gesture-handler:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-reanimated:prepareWorkletsHeadersForPrefabs UP-TO-DATE
+> Task :react-native-reanimated:preBuild UP-TO-DATE
+> Task :react-native-reanimated:preDebugBuild UP-TO-DATE
+> Task :react-native-firebase_auth:packageDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-firebase_auth:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-firebase_auth:dataBindingTriggerDebug UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:dataBindingTriggerDebug UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-firebase_auth:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-gesture-handler:generateDebugRFile UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-firebase_auth:generateDebugRFile UP-TO-DATE
+> Task :react-native-firebase_auth:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-firebase_auth:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-firebase_auth:extractDeepLinksDebug UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :react-native-firebase_auth:processDebugManifest UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :react-native-firebase_auth:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-firebase_auth:mergeDebugShaders UP-TO-DATE
+> Task :react-native-firebase_auth:compileDebugShaders NO-SOURCE
+> Task :react-native-firebase_auth:generateDebugAssets UP-TO-DATE
+> Task :react-native-firebase_auth:packageDebugAssets UP-TO-DATE
+> Task :react-native-firebase_auth:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-firebase_auth:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-firebase_auth:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-gesture-handler:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugManifest UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugShaders UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:packageDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-gesture-handler:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-safe-area-context:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResValues UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-reanimated:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-track-player:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResValues UP-TO-DATE
+> Task :react-native-screens:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-vector-icons:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-track-player:generateDebugResValues UP-TO-DATE
+> Task :react-native-screens:generateDebugResValues UP-TO-DATE
+> Task :react-native-view-shot:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-reanimated:generateDebugResources UP-TO-DATE
+> Task :react-native-vector-icons:generateDebugResValues UP-TO-DATE
+> Task :react-native-view-shot:generateDebugResValues UP-TO-DATE
+> Task :react-native-track-player:generateDebugResources UP-TO-DATE
+> Task :react-native-vector-icons:generateDebugResources UP-TO-DATE
+> Task :react-native-view-shot:generateDebugResources UP-TO-DATE
+> Task :react-native-firebase_app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugResValues UP-TO-DATE
+> Task :react-native-reanimated:packageDebugResources UP-TO-DATE
+> Task :react-native-screens:generateDebugResources UP-TO-DATE
+> Task :react-native-vector-icons:packageDebugResources UP-TO-DATE
+> Task :react-native-splash-screen:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugResources UP-TO-DATE
+> Task :react-native-splash-screen:generateDebugResValues UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :react-native-google-signin_google-signin:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-vector-icons:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-view-shot:packageDebugResources UP-TO-DATE
+> Task :react-native-track-player:packageDebugResources UP-TO-DATE
+> Task :react-native-google-signin_google-signin:generateDebugResValues UP-TO-DATE
+> Task :react-native-view-shot:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-google-signin_google-signin:generateDebugResources UP-TO-DATE
+> Task :react-native-track-player:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-reanimated:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-splash-screen:generateDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-firebase_app:packageDebugResources UP-TO-DATE
+> Task :react-native-firebase_app:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:packageDebugResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-vector-icons:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-screens:packageDebugResources UP-TO-DATE
+> Task :react-native-vector-icons:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-splash-screen:packageDebugResources UP-TO-DATE
+> Task :react-native-vector-icons:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-screens:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-view-shot:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-splash-screen:parseDebugLocalResources UP-TO-DATE
+> Task :react-native-safe-area-context:generateDebugRFile UP-TO-DATE
+> Task :react-native-view-shot:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-view-shot:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-firebase_app:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-vector-icons:generateDebugRFile UP-TO-DATE
+> Task :react-native-track-player:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-firebase_app:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-reanimated:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-track-player:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-vector-icons:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-reanimated:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-view-shot:generateDebugRFile UP-TO-DATE
+> Task :react-native-track-player:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-reanimated:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-google-signin_google-signin:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-screens:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-screens:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-view-shot:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-firebase_app:generateDebugRFile UP-TO-DATE
+> Task :react-native-splash-screen:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-reanimated:generateDebugRFile UP-TO-DATE
+> Task :react-native-screens:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-firebase_app:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:generateDebugRFile UP-TO-DATE
+> Task :react-native-reanimated:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :react-native-splash-screen:dataBindingTriggerDebug UP-TO-DATE
+> Task :react-native-reanimated:packageNdkLibs NO-SOURCE
+> Task :react-native-track-player:generateDebugRFile UP-TO-DATE
+> Task :react-native-splash-screen:generateDebugBuildConfig UP-TO-DATE
+> Task :react-native-screens:generateDebugRFile UP-TO-DATE
+> Task :react-native-splash-screen:generateDebugRFile UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :react-native-splash-screen:javaPreCompileDebug UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :react-native-view-shot:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-view-shot:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-vector-icons:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-vector-icons:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-view-shot:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-vector-icons:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-vector-icons:processDebugManifest UP-TO-DATE
+> Task :react-native-vector-icons:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-view-shot:processDebugManifest UP-TO-DATE
+> Task :react-native-vector-icons:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-vector-icons:mergeDebugShaders UP-TO-DATE
+> Task :react-native-vector-icons:compileDebugShaders NO-SOURCE
+> Task :react-native-vector-icons:generateDebugAssets UP-TO-DATE
+> Task :react-native-vector-icons:packageDebugAssets UP-TO-DATE
+> Task :react-native-vector-icons:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-firebase_app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-vector-icons:processDebugJavaRes UP-TO-DATE
+> Task :react-native-firebase_app:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-vector-icons:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-firebase_app:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-vector-icons:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-firebase_app:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-splash-screen:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-vector-icons:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-view-shot:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-splash-screen:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-vector-icons:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-view-shot:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-view-shot:mergeDebugShaders UP-TO-DATE
+> Task :react-native-firebase_app:processDebugManifest UP-TO-DATE
+> Task :react-native-firebase_app:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-view-shot:compileDebugShaders NO-SOURCE
+> Task :react-native-view-shot:generateDebugAssets UP-TO-DATE
+> Task :react-native-firebase_app:mergeDebugShaders UP-TO-DATE
+> Task :react-native-view-shot:packageDebugAssets UP-TO-DATE
+> Task :react-native-splash-screen:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-firebase_app:compileDebugShaders NO-SOURCE
+> Task :react-native-firebase_app:generateDebugAssets UP-TO-DATE
+> Task :react-native-view-shot:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-firebase_app:packageDebugAssets UP-TO-DATE
+> Task :react-native-splash-screen:processDebugManifest UP-TO-DATE
+> Task :react-native-firebase_app:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-firebase_auth:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-view-shot:processDebugJavaRes UP-TO-DATE
+> Task :react-native-splash-screen:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-splash-screen:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-view-shot:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-splash-screen:mergeDebugShaders UP-TO-DATE
+> Task :react-native-splash-screen:compileDebugShaders NO-SOURCE
+> Task :react-native-splash-screen:generateDebugAssets UP-TO-DATE
+> Task :react-native-firebase_app:processDebugJavaRes UP-TO-DATE
+> Task :react-native-splash-screen:packageDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-splash-screen:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-firebase_app:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-reanimated:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-reanimated:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-splash-screen:processDebugJavaRes UP-TO-DATE
+> Task :react-native-splash-screen:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-firebase_app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-firebase_app:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-gesture-handler:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-firebase_app:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-splash-screen:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-firebase_auth:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-splash-screen:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-splash-screen:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-gesture-handler:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-view-shot:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-reanimated:processDebugManifest UP-TO-DATE
+> Task :react-native-view-shot:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-view-shot:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-reanimated:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugKotlin UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugShaders UP-TO-DATE
+> Task :react-native-reanimated:compileDebugShaders NO-SOURCE
+> Task :react-native-reanimated:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-reanimated:packageDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:compileDebugKotlin UP-TO-DATE
+> Task :react-native-firebase_auth:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-google-signin_google-signin:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-firebase_auth:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-reanimated:processDebugJavaRes UP-TO-DATE
+> Task :react-native-firebase_auth:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-reanimated:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-firebase_auth:processDebugJavaRes UP-TO-DATE
+> Task :react-native-firebase_auth:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-safe-area-context:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-track-player:compileDebugKotlin UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugManifest UP-TO-DATE
+> Task :react-native-google-signin_google-signin:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-track-player:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-track-player:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-track-player:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-track-player:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-track-player:processDebugManifest UP-TO-DATE
+> Task :react-native-reanimated:configureCMakeDebug[arm64-v8a]
+> Task :react-native-safe-area-context:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:packageDebugAssets UP-TO-DATE
+> Task :react-native-google-signin_google-signin:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-track-player:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-track-player:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:processDebugJavaRes UP-TO-DATE
+> Task :react-native-google-signin_google-signin:processDebugManifest UP-TO-DATE
+> Task :react-native-track-player:mergeDebugShaders UP-TO-DATE
+> Task :react-native-track-player:compileDebugShaders NO-SOURCE
+> Task :react-native-track-player:generateDebugAssets UP-TO-DATE
+> Task :react-native-google-signin_google-signin:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-google-signin_google-signin:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-safe-area-context:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-track-player:packageDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-track-player:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:mergeDebugShaders UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-google-signin_google-signin:compileDebugShaders NO-SOURCE
+> Task :react-native-google-signin_google-signin:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-google-signin_google-signin:packageDebugAssets UP-TO-DATE
+> Task :react-native-google-signin_google-signin:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-track-player:processDebugJavaRes UP-TO-DATE
+> Task :react-native-google-signin_google-signin:processDebugJavaRes UP-TO-DATE
+> Task :react-native-track-player:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-google-signin_google-signin:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-track-player:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-google-signin_google-signin:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-track-player:mergeDebugNativeLibs NO-SOURCE
+> Task :react-native-google-signin_google-signin:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-track-player:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :react-native-screens:compileDebugKotlin UP-TO-DATE
+> Task :react-native-screens:javaPreCompileDebug UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugKotlin UP-TO-DATE
+> Task :react-native-screens:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-screens:writeDebugAarMetadata UP-TO-DATE
+> Task :react-native-screens:extractDeepLinksDebug UP-TO-DATE
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-screens:processDebugManifest UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:processDebugJavaRes UP-TO-DATE
+> Task :react-native-screens:compileDebugLibraryResources UP-TO-DATE
+> Task :react-native-screens:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :react-native-screens:mergeDebugShaders UP-TO-DATE
+> Task :react-native-screens:compileDebugShaders NO-SOURCE
+> Task :react-native-screens:generateDebugAssets UP-TO-DATE
+> Task :react-native-screens:packageDebugAssets UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :react-native-screens:processDebugJavaRes UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :react-native-screens:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :react-native-screens:configureCMakeDebug[arm64-v8a]
+> Task :app:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :react-native-screens:buildCMakeDebug[arm64-v8a]
+> Task :react-native-screens:configureCMakeDebug[armeabi-v7a]
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :react-native-screens:buildCMakeDebug[armeabi-v7a]
+> Task :react-native-screens:configureCMakeDebug[x86]
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :react-native-screens:buildCMakeDebug[x86]
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :react-native-screens:configureCMakeDebug[x86_64]
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :react-native-screens:buildCMakeDebug[x86_64]
+> Task :react-native-screens:mergeDebugJniLibFolders UP-TO-DATE
+> Task :react-native-screens:mergeDebugNativeLibs UP-TO-DATE
+> Task :react-native-screens:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+
+> Task :react-native-reanimated:buildCMakeDebug[arm64-v8a][reanimated,worklets]
+C/C++: ninja: Entering directory `C:\moodapp\node_modules\react-native-reanimated\android\.cxx\Debug\1su5e6a3\arm64-v8a'
+C/C++: C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\LayoutAnimations.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.cpp
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.cpp:2:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.h:3:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+C/C++: C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\AndroidUIScheduler.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.cpp
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.cpp:1:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.h:8:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapper.h:10:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapperBase.h:13:
+C/C++: In file included from C:/moodapp/node_modules/react-native/ReactCommon/cxxreact/CxxModule.h:15:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+C/C++: C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\WorkletsOnLoad.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsOnLoad.cpp
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsOnLoad.cpp:3:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.h:8:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapper.h:10:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapperBase.h:13:
+C/C++: In file included from C:/moodapp/node_modules/react-native/ReactCommon/cxxreact/CxxModule.h:15:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+C/C++: C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\WorkletsModule.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsModule.cpp
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsModule.cpp:3:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+C/C++: C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\JNIHelper.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.cpp
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.cpp:1:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+C/C++: C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\OnLoad.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/OnLoad.cpp
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/OnLoad.cpp:3:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.h:3:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+C/C++: C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\NativeProxy.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.cpp
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.cpp:4:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.h:4:
+C/C++: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+
+> Task :react-native-reanimated:buildCMakeDebug[arm64-v8a][reanimated,worklets] FAILED
+
+[Incubating] Problems report is available at: file:///C:/moodapp/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.12/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+317 actionable tasks: 10 executed, 307 up-to-date
+
+info 💡 Tip: Make sure that you have set up your development environment correctly, by running npx react-native doctor. To read more about doctor command visit: https://github.com/react-native-community/cli/blob/main/packages/cli-doctor/README.md#doctor 
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':react-native-reanimated:buildCMakeDebug[arm64-v8a][reanimated,worklets]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `C:\moodapp\node_modules\react-native-reanimated\android\.cxx\Debug\1su5e6a3\arm64-v8a'
+  [0/2] Re-checking globbed directories...
+  [1/9] Building CXX object src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o
+  FAILED: src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o 
+  C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\LayoutAnimations.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.cpp
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.cpp:2:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.h:3:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  [2/9] Building CXX object src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o
+  FAILED: src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o 
+  C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\AndroidUIScheduler.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.cpp
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.cpp:1:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.h:8:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapper.h:10:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapperBase.h:13:
+  In file included from C:/moodapp/node_modules/react-native/ReactCommon/cxxreact/CxxModule.h:15:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  [3/9] Building CXX object src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o
+  FAILED: src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o 
+  C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\WorkletsOnLoad.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsOnLoad.cpp
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsOnLoad.cpp:3:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.h:8:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapper.h:10:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapperBase.h:13:
+  In file included from C:/moodapp/node_modules/react-native/ReactCommon/cxxreact/CxxModule.h:15:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  [4/9] Building CXX object src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o
+  FAILED: src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o 
+  C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\WorkletsModule.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsModule.cpp
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsModule.cpp:3:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  [5/9] Building CXX object src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o
+  FAILED: src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o 
+  C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\JNIHelper.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.cpp
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.cpp:1:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  [6/9] Building CXX object src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o
+  FAILED: src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o 
+  C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\OnLoad.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/OnLoad.cpp
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/OnLoad.cpp:3:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.h:3:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  [7/9] Building CXX object src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o
+  FAILED: src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o 
+  C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_MINOR_VERSION=78   -DREANIMATED_VERSION=3.17.2    -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all   -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\NativeProxy.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.cpp
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.cpp:4:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.h:4:
+  In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  ninja: build stopped: subcommand failed.
+  
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "C:\\moodapp\\node_modules\\react-native-reanimated\\android\\.cxx\\Debug\\1su5e6a3\\arm64-v8a" ^
+        reanimated ^
+        worklets
+    from C:\moodapp\node_modules\react-native-reanimated\android
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 15s
+error Failed to install the app. Command failed with exit code 1: gradlew.bat app:installDebug -PreactNativeDevServerPort=8081 FAILURE: Build failed with an exception. * What went wrong: Execution failed for task ':react-native-reanimated:buildCMakeDebug[arm64-v8a][reanimated,worklets]'. > com.android.ide.common.process.ProcessException: ninja: Entering directory `C:\moodapp\node_modules\react-native-reanimated\android\.cxx\Debug\1su5e6a3\arm64-v8a' [0/2] Re-checking globbed directories... [1/9] Building CXX object src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o FAILED: src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DREACT_NATIVE_MINOR_VERSION=78 -DREANIMATED_VERSION=3.17.2 -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\LayoutAnimations.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/LayoutAnimations.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.cpp In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.cpp:2: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.h:3: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std' static_assert(std::regular<F14HashToken>); ~~~~~^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value static_assert(std::regular<F14HashToken>); ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here class F14HashToken final { ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression static_assert(std::regular<F14HashToken>); ^ 3 errors generated. [2/9] Building CXX object src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o FAILED: src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DREACT_NATIVE_MINOR_VERSION=78 -DREANIMATED_VERSION=3.17.2 -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\AndroidUIScheduler.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/AndroidUIScheduler.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.cpp In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.cpp:1: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.h:8: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapper.h:10: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapperBase.h:13: In file included from C:/moodapp/node_modules/react-native/ReactCommon/cxxreact/CxxModule.h:15: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std' static_assert(std::regular<F14HashToken>); ~~~~~^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value static_assert(std::regular<F14HashToken>); ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here class F14HashToken final { ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression static_assert(std::regular<F14HashToken>); ^ 3 errors generated. [3/9] Building CXX object src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o FAILED: src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DREACT_NATIVE_MINOR_VERSION=78 -DREANIMATED_VERSION=3.17.2 -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\WorkletsOnLoad.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsOnLoad.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsOnLoad.cpp In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsOnLoad.cpp:3: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/AndroidUIScheduler.h:8: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapper.h:10: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/react/jni/CxxModuleWrapperBase.h:13: In file included from C:/moodapp/node_modules/react-native/ReactCommon/cxxreact/CxxModule.h:15: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std' static_assert(std::regular<F14HashToken>); ~~~~~^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value static_assert(std::regular<F14HashToken>); ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here class F14HashToken final { ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression static_assert(std::regular<F14HashToken>); ^ 3 errors generated. [4/9] Building CXX object src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o FAILED: src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dworklets_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/react/nativemodule/core/ReactCommon -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DREACT_NATIVE_MINOR_VERSION=78 -DREANIMATED_VERSION=3.17.2 -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o -MF src\main\cpp\worklets\CMakeFiles\worklets.dir\android\WorkletsModule.cpp.o.d -o src/main/cpp/worklets/CMakeFiles/worklets.dir/android/WorkletsModule.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsModule.cpp In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/worklets/android/WorkletsModule.cpp:3: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std' static_assert(std::regular<F14HashToken>); ~~~~~^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value static_assert(std::regular<F14HashToken>); ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here class F14HashToken final { ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression static_assert(std::regular<F14HashToken>); ^ 3 errors generated. [5/9] Building CXX object src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o FAILED: src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DREACT_NATIVE_MINOR_VERSION=78 -DREANIMATED_VERSION=3.17.2 -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\JNIHelper.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/JNIHelper.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.cpp In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.cpp:1: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std' static_assert(std::regular<F14HashToken>); ~~~~~^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value static_assert(std::regular<F14HashToken>); ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here class F14HashToken final { ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression static_assert(std::regular<F14HashToken>); ^ 3 errors generated. [6/9] Building CXX object src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o FAILED: src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DREACT_NATIVE_MINOR_VERSION=78 -DREANIMATED_VERSION=3.17.2 -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\OnLoad.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/OnLoad.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/OnLoad.cpp In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/OnLoad.cpp:3: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/LayoutAnimations.h:3: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std' static_assert(std::regular<F14HashToken>); ~~~~~^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value static_assert(std::regular<F14HashToken>); ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here class F14HashToken final { ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression static_assert(std::regular<F14HashToken>); ^ 3 errors generated. [7/9] Building CXX object src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o FAILED: src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o C:\Android\Sdk\ndk\25.2.9519653\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android24 --sysroot=C:/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dreanimated_EXPORTS -IC:/moodapp/node_modules/react-native-reanimated/android/../Common/cpp -IC:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp -IC:/moodapp/node_modules/react-native/ReactCommon -IC:/moodapp/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/moodapp/node_modules/react-native/ReactCommon/callinvoker -IC:/moodapp/node_modules/react-native/ReactCommon/runtimeexecutor -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/4f6a6153059c9a4891f59ef9f9c80820/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/a335b258fcab0a8dfb13c84e1d770a93/transformed/jetified-hermes-android-0.78.1-debug/prefab/modules/libhermes/include" -isystem "C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/hermestooling/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -DREACT_NATIVE_MINOR_VERSION=78 -DREANIMATED_VERSION=3.17.2 -DHERMES_ENABLE_DEBUGGER=1 -fexceptions -fno-omit-frame-pointer -frtti -fstack-protector-all -std=c++20 -Wall -Werror -DJS_RUNTIME_HERMES=1 -fno-limit-debug-info -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -std=gnu++20 -MD -MT src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o -MF src\main\cpp\reanimated\CMakeFiles\reanimated.dir\android\NativeProxy.cpp.o.d -o src/main/cpp/reanimated/CMakeFiles/reanimated.dir/android/NativeProxy.cpp.o -c C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.cpp In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.cpp:4: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/NativeProxy.h:4: In file included from C:/moodapp/node_modules/react-native-reanimated/android/src/main/cpp/reanimated/android/JNIHelper.h:4: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/jsi/include/jsi/JSIDynamic.h:10: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/dynamic.h:17: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41: In file included from C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26: C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std' static_assert(std::regular<F14HashToken>); ~~~~~^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value static_assert(std::regular<F14HashToken>); ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here class F14HashToken final { ^ C:/Users/Sneha.J. Chaturvedi/.gradle/caches/8.12/transforms/55150bc59dbce9fa1d0a6a61d41ecaf0/transformed/jetified-react-android-0.78.1-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression static_assert(std::regular<F14HashToken>); ^ 3 errors generated. ninja: build stopped: subcommand failed. C++ build system [build] failed while executing: @echo off "C:\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^ -C ^ "C:\\moodapp\\node_modules\\react-native-reanimated\\android\\.cxx\\Debug\\1su5e6a3\\arm64-v8a" ^ reanimated ^ worklets from C:\moodapp\node_modules\react-native-reanimated\android * Try: > Run with --stacktrace option to get the stack trace. > Run with --info or --debug option to get more log output. > Run with --scan to get full insights. > Get more help at https://help.gradle.org. BUILD FAILED in 15s.
+info Run CLI with --verbose flag for more details.

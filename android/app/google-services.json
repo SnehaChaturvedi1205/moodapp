@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1004210266944",
+    "project_id": "moodapp-52bd7",
+    "storage_bucket": "moodapp-52bd7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004210266944:android:aac2b8f232536948bb50a5",
+        "android_client_info": {
+          "package_name": "com.moodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004210266944-rhrpil8gthbgv416vltd75sdg4nose5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moodapp",
+            "certificate_hash": "917fb703a7b36ba0e26b78f2785981e30f1f5f68"
+          }
+        },
+        {
+          "client_id": "1004210266944-om00fk5j0520mt6fho5881jvd1k9vqcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk7umnmYRbp3a0bjBe-lcV1HUvAD5_u_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004210266944-om00fk5j0520mt6fho5881jvd1k9vqcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
